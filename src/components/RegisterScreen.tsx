@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { RadioGroup, RadioGroupItem } from './ui/radio-group';
 import { Fish, Users, User } from 'lucide-react';
 import type { User as UserType, UserRole, Language } from '../App';
+import logoImage from './fish(2).png';
 
 interface RegisterScreenProps {
   onRegister: (user: UserType) => void;
@@ -42,7 +43,7 @@ export default function RegisterScreen({ onRegister }: RegisterScreenProps) {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center pb-4">
           <div className="mx-auto w-16 h-16  rounded-full flex items-center justify-center mb-4">
-            <img className=" h-30 blend"  src="src/components/fish(2).png" alt="AquaSure Logo" />
+            <img className=" h-30 blend"  src={logoImage} alt="AquaSure Logo" />
           </div>
           <CardTitle className="text-green-800 text-2xl">AquaSure</CardTitle>
           <p className="text-green-600">मछली ऐप्प</p>
