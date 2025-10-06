@@ -87,7 +87,7 @@ export default function HomeScreen({ user, onNavigate, onLogout }: HomeScreenPro
       <div className="p-4">
         <Card className="bg-gradient-to-r from-green-100 to-blue-50 border-green-200">
           <CardContent className="p-4">
-            <h2 className="text-green-800 mb-2">Welcome to Fish Market Helper</h2>
+            <h2 className="text-green-800 mb-2">Welcome to AquaSure</h2>
             <p className="text-green-700 text-sm">
               {user.role === 'fisherman' && 'Track your catches, find fishing spots, and monitor market prices.'}
               {user.role === 'consumer' && 'Find fresh fish, check market prices, and locate sellers.'}

@@ -41,11 +41,11 @@ export default function RegisterScreen({ onRegister }: RegisterScreenProps) {
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white p-4 flex items-center justify-center">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center pb-4">
-          <div className="mx-auto w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
-            <Fish className="w-8 h-8 text-green-600" />
+          <div className="mx-auto w-16 h-16  rounded-full flex items-center justify-center mb-4">
+            <img className=" h-30 blend"  src="src/components/fish(2).png" alt="AquaSure Logo" />
           </div>
-          <CardTitle className="text-green-800 text-2xl">मछली ऐप्प</CardTitle>
-          <p className="text-green-600">Fish Market Helper</p>
+          <CardTitle className="text-green-800 text-2xl">AquaSure</CardTitle>
+          <p className="text-green-600">मछली ऐप्प</p>
         </CardHeader>
         
         <CardContent>
