@@ -1,11 +1,7 @@
 
-  # Mobile App for Fishermen
-
-  This is a code bundle for Mobile App for Fishermen. The original project is available at https://www.figma.com/design/myDFlv9glYESKYA4KjvFkg/Mobile-App-for-Fishermen.
-
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
+The fisheries sector in India still relies heavily on manual inspection for fish species identification, freshness assessment, and price and weight estimation — processes that are slow, error-prone, and easily manipulated. Lack of automated systems often results in economic loss for fishermen and unfair trade practices in the fish market.
+Our proposed solution is an AI-driven mobile application integrated with a cloud-based analytics dashboard that automates fish identification, health analysis, and market prediction. The system leverages quantized deep learning models such as YOLOv8-Tiny, MobileNetV3, and Custom CNNs deployed through PyTorch Mobile to ensure efficient on-device inference and offline functionality.
+The application operates entirely offline, requiring network access only  once in week or month for optional features like market trend updates, fishing zone heat maps, and cloud synchronization, which use cached data valid for extended periods. The backend employs Kotlin + Jetpack Compose with SQLite (Room ORM) for local persistence, while cloud integration through AWS enables data aggregation and synchronization.
+For administrative use, a React–Node.js–SQL dashboard provides real-time insights into fishermen activity, SOS alerts, and regional fishery analytics. The system also integrates voice commands and regional language support, ensuring accessibility for non-literate users.
+This solution brings automation, scalability, and transparency to India’s fisheries ecosystem using edge AI and hybrid cloud architecture.
   
