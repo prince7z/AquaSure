@@ -30,14 +30,14 @@ const fishResult = {
   species: 'Rohu',
   regionalName: 'रोहू',
   scientificName: 'Labeo rohita',
-  image: 'https://images.unsplash.com/photo-1670014543655-8fcaea9105ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmVzaCUyMGZpc2glMjBzZWFmb29kfGVufDF8fHx8MTc1OTQ3NTIwNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+  image: 'https://media.istockphoto.com/id/1393004403/photo/lots-of-rohu-fish-labeo-rohita-fish-arranged-in-line-in-indian-fish-market-rui-fish-sale-in.jpg?s=612x612&w=is&k=20&c=4xEk7e8KgIIXvNoX_2suXb6yOBCbVQYGZ5U46cYHEig=',
   dateTime: new Date().toLocaleString(),
   location: {
     coordinates: '19.0760°N, 72.8777°E',
     address: 'Mumbai Harbor, Maharashtra'
   },
   weight: '2.5 kg',
-  quantity: '3 pieces',
+  quantity: '8 pieces',
   freshnessScore: 8.5,
   canPreserve: true,
   preservationTime: '24-48 hours',
